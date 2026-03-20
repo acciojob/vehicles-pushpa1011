@@ -7,6 +7,7 @@ public class Vehicle {
     private boolean engine;
     public int currentDirection;
 
+
     public Vehicle(String name ,boolean engine) {
         this.name = name;
         this.engine = engine;
