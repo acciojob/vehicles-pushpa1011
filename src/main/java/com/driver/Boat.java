@@ -10,6 +10,7 @@ public class Boat extends Vehicle {
         return getName();   // from Vehicle
     }
 
+
     public int getVehicleCapacity() {
         return capacity;
     }
