@@ -1,8 +1,17 @@
 package com.driver;
 
 public class Boat extends Vehicle {
-    public Boat(String name) {
+    private int capacity;
+    public Boat(String name, int capacity) {
         super(name);
+        this.capacity = capacity;
+    }
+    public String getVehicleName() {
+        return getName();   // from Vehicle
+    }
+
+    public int getVehicleCapacity() {
+        return capacity;
     }
 
 }
