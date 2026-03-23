@@ -4,15 +4,13 @@ public class Vehicle {
 
     private String name;
     private int currentSpeed;
-    private boolean engine;
     public int currentDirection;
 
 
 
 
-    public Vehicle(String name ,boolean engine) {
+    public Vehicle(String name) {
         this.name = name;
-        this.engine = engine;
         this.currentSpeed = 0;
         this.currentDirection = 0;
 
@@ -36,11 +34,13 @@ public class Vehicle {
 
         System.out.println("stop method called - The vehicle is stopped");
     }
+    public int getCurrentDirection() {
+        return currentDirection;
+    }
     public int getCurrentSpeed() {
         return currentSpeed;
     }
-    public void setCurrentSpeed(int currentSpeed) {
-        this.currentSpeed = currentSpeed;
-    }
+
+
 
 }
