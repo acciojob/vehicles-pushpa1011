@@ -8,6 +8,7 @@ public class Boat extends Vehicle {
     }
     public String getVehicleName() {
         return getName();   // from Vehicle
+
     }
 
 
